@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="">
+        <title>Proyecto - Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+        <header>
+            <img src="imagenes/Logo.png" alt="Logo Alura Latam">
+        </header>
+        <main>
+            <section>
+                <div>
+                    <p class="text">Ingrese texto</p>
+                    <br>
+                    <p><textarea class="input-texto" rows="20" cols="75" placeholder="Ingrese el texto aqui"></textarea></p>
+                </div>
+                <div class="signo">
+                    <p><br> &#10071; Solo letras minisculas y sin acentos</p>
+                </div> 
+                <div>
+                    <button class="encriptar" onclick="btnEncriptar()">&#128274 </button>
+                    <button class="desencriptar" onclick="btnDesencriptar()">&#128275</button>
+                </div>
+            </section>
+
+            <section>
+                <textarea class="lectura" cols="50" rows="28"></textarea>                            
+                <button class="copiar" onclick="copiar()"> Copiar </button>
+                <p class="fametext">Ningun mensaje fue encontrado<br>Ingresa el texto que desee encriptar o desencriptar</p>  
+            </section> 
+                                     
+        </main>
+
+        <footer>
+                <p class="copyright">&copy; Ricardo Coronel 2022 <br> Oracle <br> Alura Latam</p>
+        </footer>
+        <script src="script.js" ></script>
+		
+
+	</body>
+</html>
